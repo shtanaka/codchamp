@@ -1,3 +1,39 @@
+@font-face {
+  font-family: 'Goldman';
+  font-weight: 400;
+  src: local('Goldman-Regular'), url(./fonts/Goldman-Regular.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Goldman';
+  font-weight: 500;
+  src: local('Goldman-Bold'), url(./fonts/Goldman-Bold.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Poppins';
+  font-weight: 300;
+  src: local('Poppins-Light'), url(./fonts/Poppins-Light.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Poppins';
+  font-weight: 400;
+  src: local('Poppins-Regular'), url(./fonts/Poppins-Regular.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Poppins';
+  font-weight: 500;
+  src: local('Poppins-SemiBold'), url(./fonts/Poppins-SemiBold.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Poppins';
+  font-weight: 700;
+  src: local('Poppins-Bold'), url(./fonts/Poppins-Bold.ttf) format('truetype');
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -6,6 +42,8 @@
 }
 
 body {
+  font-family: Poppins;
+  font-weight: 400;
   -webkit-font-smoothing: antialiased !important;
   background-color: #282c34;
 }
