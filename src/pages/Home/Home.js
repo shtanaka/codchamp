@@ -5,10 +5,16 @@ import HomeStyled from "./Home.styled"
 
 export default () => {
   return (
-    <PageLayout>
-      <HomeStyled>
-        Hello World
-      </HomeStyled>
-    </PageLayout>
+    <HomeStyled>
+      <div className="hero">
+        <div className="main-text-container">
+          <h3>Lute, Prevaleça</h3>
+          <h1>Reine</h1>
+        </div>
+      </div>
+      <PageLayout>
+          Hello World
+      </PageLayout>
+    </HomeStyled>
   )
 }

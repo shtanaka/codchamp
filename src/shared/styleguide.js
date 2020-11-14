@@ -3,7 +3,8 @@ export const colors = {
   white: "#FFF",
   darkGrey: "#282c34",
   grey: "#4A4E56",
-  lightGrey: "#6C6F78"
+  lightGrey: "#6C6F78",
+  gold: "#FFDF00",
 }
 
 export const devices = {

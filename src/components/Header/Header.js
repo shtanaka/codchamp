@@ -5,7 +5,7 @@ export default () => {
   return (
     <HeaderStyled>
       <div className="logo">
-        Conexão R41O: Copa Warzone
+        Copa Raio
       </div>
     </HeaderStyled>
   )
