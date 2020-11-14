@@ -5,7 +5,7 @@ export default () => {
   return (
     <HeaderStyled>
       <div className="logo">
-        Copa Raio
+        Copa RAIO
       </div>
     </HeaderStyled>
   )
